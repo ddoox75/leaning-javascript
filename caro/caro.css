@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+}
+
+.container {
+    /* background-color: blue; */
+    width: 400px;
+    height: 500px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+    /* background-color: red; */
+}
+
+.gameBoard {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: 1px solid black;
+    border-radius: 0.5em;
+}
+
+.btn {
+    display: flex;
+    flex-grow: 1;
+    margin: 5px;
+    font-size: 5em;
+    font-weight: bold;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    justify-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1.5px solid black;
+    border-radius: 0.2em;
+}
+
+.title {
+    font-size: 2.5em;
+    text-align: center;
+    color: red;
+}
+
+.controls {
+    text-align: center;
+}
+
+.xbtn {
+    color: red;
+}
+
+.obtn {
+    color: blue;
+}

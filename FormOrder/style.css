@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.container {
+    /* background-color: red; */
+    margin: auto;
+    width: 50%;
+    box-shadow: 5px 5px gray;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: blue;
+}
+
+.form-group {
+    display: block;
+    margin: 5px;
+}
+
+.form-lable {
+    display: block;
+    margin: 3px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 3px;
+}
+
+.border-group {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.invalid {
+    /* border: 2px solid yellow; */
+    box-shadow: 3px 3px 1px red;
+}
